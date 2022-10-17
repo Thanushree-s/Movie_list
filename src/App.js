@@ -20,7 +20,7 @@ export default function App() {
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <span className="navbar-brand mb-0 h1">Movie List</span>
-          <button onClick={changeTheme}>{theme==="white"?("Dark theme"):("Light theme")}</button>
+          <button onClick={changeTheme}>{theme==="white"?("Dark Theme"):("Light Theme")}</button>
         </div>
       </nav>
       <Movies theme={theme} cardTheme={cardTheme}/>
